@@ -1,3 +1,3 @@
-"# TensorflowLearning" 
-## Ubuntu
-Download and run the install-gpu.sh script to install required software on an Ubuntu machine.
+
+# Ubuntu
+Download and run the tensorflow_setup.sh script to install required software on an Ubuntu machine for Tensorflow.
