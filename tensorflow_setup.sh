@@ -81,5 +81,10 @@ else
 	pip install https://storage.googleapis.com/intel-optimized-tensorflow/tensorflow-1.9.0-cp36-cp36m-linux_x86_64.whl
 	#pip install -U tensorflow
 fi
+
+pip install pandas
+pip install h5py
+pip install keras
+
 # Validate the install and test the version
 python -c "import tensorflow as tf; print(tf.__version__)"
