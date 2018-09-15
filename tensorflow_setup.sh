@@ -78,7 +78,8 @@ then
 else
 	#Install TensorFlow without GPU support(CPU only) in the virtual environment.
 	#Install the Intel® Optimization for TensorFlow* Wheel Into an Existing Python* Installation Through PIP
-	pip install https://storage.googleapis.com/intel-optimized-tensorflow/tensorflow-1.9.0-cp36-cp36m-linux_x86_64.whl
+	#pip install https://storage.googleapis.com/intel-optimized-tensorflow/tensorflow-1.9.0-cp36-cp36m-linux_x86_64.whl
+	pip install https://storage.googleapis.com/intel-optimized-tensorflow/tensorflow-1.10.0-cp36-cp36m-linux_x86_64.whl
 	#pip install -U tensorflow
 fi
 
